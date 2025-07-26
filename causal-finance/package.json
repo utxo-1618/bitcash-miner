@@ -1,0 +1,25 @@
+{
+  "name": "causal-finance",
+  "version": "1.0.0",
+  "description": "Convert semantic signals into real ETH through protocol liquidations",
+  "main": "eth-extractor.js",
+  "scripts": {
+    "start": "node eth-extractor.js",
+    "extract": "node yield-extractor.js",
+    "signals": "node signal-map.js",
+    "loop": "node recursive-loop.js"
+  },
+  "keywords": [
+    "semantic",
+    "liquidation",
+    "mev",
+    "causal",
+    "defi"
+  ],
+  "dependencies": {
+    "ethers": "^5.7.0",
+    "@graphprotocol/client-cli": "^2.2.0"
+  },
+  "license": "MIT"
+}
+
