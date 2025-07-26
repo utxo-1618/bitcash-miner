@@ -95,4 +95,3 @@ node recursive-loop.js
 - Signal broadcast cost: $0.001 (Base L2)
 - Liquidation gas: $0.10-1.00 (L2) or $20-50 (mainnet)
 - Liquidation profit: 5-13% of collateral value
-- ROI: 1,000x-1,000,000x per successful liquidation
